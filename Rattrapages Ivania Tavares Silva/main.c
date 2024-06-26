@@ -5,8 +5,6 @@
 #include "playerManager.h"
 
 
-
-
 int quit = 0;
 
 SDL_Window* window = NULL;

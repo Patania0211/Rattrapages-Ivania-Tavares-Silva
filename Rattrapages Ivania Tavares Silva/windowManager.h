@@ -6,4 +6,4 @@
 
 int createWindow(SDL_Window** window, SDL_Renderer** renderer);
 int closeWindow(SDL_Window* window);
-void drawImage(SDL_Renderer* renderer);
+int drawImage(SDL_Renderer* renderer);

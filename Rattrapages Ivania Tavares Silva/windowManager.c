@@ -40,8 +40,8 @@ int closeWindow(SDL_Window* window) {
 	return 0;
 }
 
-void drawImage(SDL_Renderer* renderer) {
-	//SDL_Surface* BGSurface = SDL_LoadBMP("cat_player.bmp");
+int drawImage(SDL_Renderer* renderer) {
+
 	SDL_Surface* BGSurface = SDL_LoadBMP("cat_player.bmp");
 
 	if (!BGSurface) {
