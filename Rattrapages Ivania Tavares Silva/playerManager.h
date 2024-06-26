@@ -16,4 +16,5 @@ typedef struct Player {
 
 int drawPlayer(Player player, SDL_Renderer* renderer);
 int movePlayer(Player* player);
+int playerCollisions(Player* player);
 
